@@ -1,0 +1,21 @@
+[project]
+name = "llm-txt-generator"
+version = "0.1.0"
+description = "A tool similar to Context7 that generates documentation from GitHub repositories for use with LLMs"
+readme = "README.md"
+requires-python = ">=3.10.0"
+dependencies = [
+    "requests==2.31.0",
+    "gitpython==3.1.40",
+    "langchain==0.0.335",
+    "python-dotenv==1.0.0",
+    "openai==1.12.0",
+    "numpy==1.26.3",
+    "tqdm==4.66.1",
+    "rich==13.7.0",
+    "dotenv>=0.9.9",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
